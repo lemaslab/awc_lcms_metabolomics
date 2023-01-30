@@ -4,7 +4,6 @@ The objective of this study is to develop an automated workflow composition syst
 
 ## How to reproduce the result
 
-1. Run the workflow.
 ```
 bash run.sh
 ```
