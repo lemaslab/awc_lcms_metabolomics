@@ -1,0 +1,415 @@
+{
+  "functions": [
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3654",
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3712",
+            "http://edamontology.org/format_3654",
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0335"
+      ],
+      "label": "ProteoWizard-msConvert (formatting)",
+      "id": "1"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_2332",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3654"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215",
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628"
+      ],
+      "label": "MZmine (peak detection + chromatogram visualisation + chromatographic alignment)",
+      "id": "7"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_2332",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3654"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215",
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628",
+        "http://edamontology.org/operation_3803"
+      ],
+      "label": "MZmine (peak detection + chromatogram visualisation + chromatographic alignment + metabolite identification)",
+      "id": "8"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_2332",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_2332"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3803"
+      ],
+      "label": "MZmine (metabolite identification)",
+      "id": "9"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1915"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3914"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3654"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215",
+        "http://edamontology.org/operation_3960",
+        "http://edamontology.org/operation_2428",
+        "http://edamontology.org/operation_3695"
+      ],
+      "label": "MZmine (peak detection + chromatogram visualisation + chromatographic alignment + principal component analysis + quality control)",
+      "id": "10"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1915"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3914"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_2332"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3960",
+        "http://edamontology.org/operation_2428"
+      ],
+      "label": "MZmine (PCA)",
+      "id": "11"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3650"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3654",
+            "http://edamontology.org/format_3244"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215"
+      ],
+      "label": "MZmine (peak detection)",
+      "id": "12"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215",
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628"
+      ],
+      "label": "MS-DIAL (peak detection + chromatogram visualisation + chromatographic alignment)",
+      "id": "3"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681",
+            "http://edamontology.org/format_3651"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215",
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628",
+        "http://edamontology.org/operation_3803"
+      ],
+      "label": "MS-DIAL (peak detection + chromatogram visualisation + chromatographic alignment + metabolite identification)",
+      "id": "4"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1915"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3914"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3244"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3215",
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628",
+        "http://edamontology.org/operation_3960",
+        "http://edamontology.org/operation_2428"
+      ],
+      "label": "MS-DIAL (peak detection + chromatogram visualisation + chromatographic alignment + principal component analysis + quality control)",
+      "id": "2"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3654",
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3834",
+            "http://edamontology.org/format_3650"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628"
+      ],
+      "label": "XCMS (chromatogram visualisation + chromatographic alignment)",
+      "id": "14"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3751",
+            "http://edamontology.org/format_3681"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1086"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3654",
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3834",
+            "http://edamontology.org/format_3650"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628",
+        "http://edamontology.org/operation_3803"
+      ],
+      "label": "XCMS (chromatogram visualisation + chromatographic alignment + metabolite identification)",
+      "id": "15"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1915"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3914"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3654",
+            "http://edamontology.org/format_3244",
+            "http://edamontology.org/format_3834",
+            "http://edamontology.org/format_3650"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0943"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3203",
+        "http://edamontology.org/operation_3628",
+        "http://edamontology.org/operation_3960",
+        "http://edamontology.org/operation_2428"
+      ],
+      "label": "XCMS (chromatogram visualisation + chromatographic alignment + principal component analysis + quality control)",
+      "id": "16"
+    }
+  ]
+}

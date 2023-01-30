@@ -1,0 +1,28 @@
+{
+    "constraints": [
+	{
+        "constraintid": "use_m",
+        "parameters": [
+	{ "operation_0004" : ["operation_3215"]}
+	]
+      },
+  {
+        "constraintid": "use_m",
+        "parameters": [
+  { "operation_0004" : ["operation_3960"]}
+  ]
+      },
+  {
+        "constraintid": "use_m",
+        "parameters": [
+  { "operation_0004" : ["operation_2428"]}
+  ]
+      },
+  {
+        "constraintid": "nuse_m",
+        "parameters": [
+  { "operation_0004" : ["operation_3803"]}
+  ]
+      }
+    ]
+}

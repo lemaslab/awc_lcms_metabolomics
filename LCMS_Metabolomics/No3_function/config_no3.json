@@ -1,0 +1,40 @@
+{
+  "ontology_path": "./LCMS_Metabolomics/edam.owl",
+  "ontologyPrexifIRI": "http://edamontology.org/",
+  "toolsTaxonomyRoot": "operation_0004",
+  "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915" ],
+  "tool_annotations_path": "./LCMS_Metabolomics/bio.tools_lcms_metabolomics_function.json",
+  "strict_tool_annotations": "true",
+  "constraints_path": "./LCMS_Metabolomics/No3_function/constraints_no3.json",
+  "timeout_sec": "600",
+  "solutions_dir_path": "./LCMS_Metabolomics/No3_function/",
+  "solution_length": { "min": 1, "max": 4 },
+  "max_solutions": "1000",
+  "number_of_execution_scripts": "0",
+  "number_of_cwl_files": "0",
+  "number_of_generated_graphs": "10",
+  "debug_mode": "false",
+  "use_workflow_input": "all",
+  "use_all_generated_data": "one",
+  "tool_seq_repeat": "false",
+  "inputs": [
+        {
+          "data_0006": [
+            "data_0943"
+          ],
+          "format_1915": [
+            "format_3654"
+          ]
+        }
+      ],
+  "outputs": [
+        {
+          "data_0006": [
+            "data_1086"
+          ],
+          "format_1915": [
+            "format_1915"
+          ]
+        }
+      ]
+}
