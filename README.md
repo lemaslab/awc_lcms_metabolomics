@@ -1,4 +1,4 @@
-# Automated workflow composition for LC-MS metabolomics data processing
+# Automated Workflow Composition System for LC-HRMS Metabolomics Research
 
 The objective of this study is to develop an automated workflow composition system for LC-HRMS metabolomics data processing. The system is built upon [APE](https://github.com/sanctuuary/APE)
 
